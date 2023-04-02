@@ -2,7 +2,7 @@ syntax = "proto3"; // proto 文件版本
 
 package pistol; // 包名，也是作用域名
 
-option go_package ="github.com/duanshanghanqing/proto-pistol;pistol"; // 编译成go文件存放的路径，绝对位置从根目录开始，相对位置按编译命令位置算起
+option go_package ="github.com/duanshanghanqing/pistol;pistol"; // 编译成go文件存放的路径，绝对位置从根目录开始，相对位置按编译命令位置算起
 
 message PageMessage {
   int64  PageNo = 1;
