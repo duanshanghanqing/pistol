@@ -1,6 +1,6 @@
 # pistol
 
-## Page
+## PageMessage
 
     message PageMessage {
         int64  PageNo = 1;
